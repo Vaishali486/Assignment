@@ -15,7 +15,7 @@ service ideal_retailer_registration {
     entity TemplateAttachments as projection on ScSales.RETAILER_TEMPLATE_ATTACHMENTS;
     entity RetailerSoHeader as projection on ScSales.RETAILER_SO_HEADER;
     entity RetailerSoItems as projection on ScSales.RETAILER_SO_ITEMS;
-    entity RetailerDummy as projection on ScSales.RETAILER_DUMMY;
+    // entity RetailerDummy as projection on ScSales.RETAILER_DUMMY;
 
     entity CountryMaster as projection on DEALER_PORTAL_RETAILER_REGISTRATION.COUNTRY_MASTER;
     entity CityMaster as projection on DEALER_PORTAL_RETAILER_REGISTRATION.CITY_MASTER;
