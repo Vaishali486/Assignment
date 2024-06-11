@@ -301,3 +301,6 @@ entity RETAILER_INVOICE_ITEM {
     HSN_CODE : String(10);
 }
 
+entity Demo{
+    ID : Integer;
+}
