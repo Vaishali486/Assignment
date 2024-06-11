@@ -300,6 +300,9 @@ entity RETAILER_INVOICE_ITEM {
     TAXES_AMOUNT : String(10);
     HSN_CODE : String(10);
 }
+entity RETAILER_TRANSACTION_DUMMY{
+    STATUS:String(3);
+}
 
 entity Demo{
     ID : Integer;
