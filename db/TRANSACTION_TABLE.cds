@@ -301,6 +301,7 @@ entity RETAILER_INVOICE_ITEM {
     HSN_CODE : String(10);
 }
 entity RETAILER_TRANSACTION_DUMMY{
-    STATUS:String(3);
+    STATUS:String(4);
+
 }
 
